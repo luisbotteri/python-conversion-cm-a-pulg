@@ -1,0 +1,24 @@
+Problemática:
+La empresa estadounidense America MegaDesign etá realizando un nuevo modelo de muebles
+basados en los planos del diseñador italiano Americo Chiara, pero muchas piezas no han
+encajado correctamente dado que los planos están en centímetros (cm) y las máquinas
+están en pulgadas (plg). 
+
+Algoritmo:
+1. Solicitarl al usuario las medidas de la pieza del mueble en centímetros (cm).
+2. Convertir las medidas de cm a plg.
+3. Mostrar al usuario las medidas convertidas a pulgadas. 
+
+Pseudocódigo:
+Inicio
+    // Paso 1: solicitar al usuario las medidas de la pieza del mueble en cms. 
+    Mostrar mensaje: "Por favor, ingrese las medidas del mueble en cms: "
+
+    // Paso 2: convertir las medidas del mueble de centímetros a pulgadas. 
+    Convertir medidas_pulg = medida_cm / 2.54
+
+    // Paso 3: presentar el resultado al usuario.
+    Mostrar mensaje: "Los muebles poseen las siguientes medidas: ", medidas_pulg
+
+Fin
+
